@@ -160,7 +160,7 @@ const Purchase = () => {
                   {isLoading ? (
                     <Skeleton width={12} height={6} rounded="md" />
                     ) : (
-                    <Text fontSize={'md'}>Resale Tickets: ${product.price} x 2</Text>
+                    <Text fontSize={'md'}>Resale Tickets: ${product.price} x {qty}</Text>
                   )}
                    {isLoading ? (
                     <Skeleton width={12} height={6} rounded="md" />
